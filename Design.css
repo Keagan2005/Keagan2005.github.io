@@ -59,8 +59,3 @@ width:100%;
 transition: width .3s
 
 }
-
-.Bar {
-display: flex;
-margin-left: 750px;
-}
