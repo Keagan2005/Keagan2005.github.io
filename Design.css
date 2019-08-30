@@ -2,7 +2,7 @@
 
   padding-left: 100px;
   font-family: 'Lexend Deca', sans-serif;
-float: left;
+display: flex;
 }
 
 
@@ -54,9 +54,13 @@ background: #fff;
 transition: width .3
 
 }
-
 .text:hover::after {
 width:100%;
 transition: width .3s
 
+}
+
+.Bar {
+display: flex;
+margin-left: 750px;
 }
