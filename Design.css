@@ -1,0 +1,62 @@
+.Main {
+
+  padding-left: 100px;
+  font-family: 'Lexend Deca', sans-serif;
+float: left;
+}
+
+
+li  {
+
+  list-style-type: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: right;
+ padding: 0 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+height: 60px;
+
+
+}
+a{
+  color: #edf0f1;
+  text-decoration: none;
+  font-size:16px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+body {
+background-color: #24252A;
+}
+
+h1 {
+color: #edf0f1;
+font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+.text::after {
+ content: "";
+display: block;
+width: 0;
+height: 2px;
+background: #fff;
+transition: width .3
+
+}
+
+.text:hover::after {
+width:100%;
+transition: width .3s
+
+}
