@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#946B45;
+  background-color:#00cc66;
 }
 
 /* Global */
@@ -28,7 +28,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#4A2324;
+  background:#000000;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -52,11 +52,11 @@ ul{
 }
 /* Header **/
 header{
-  background:#5e2c04;
+  background:#000000;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 7px solid;
+  border-bottom:#003300 7px solid;
 }
 
 header a{
@@ -86,12 +86,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#ffffff;
   font-weight:bold;
 }
 
 header a:hover{
-  color:#FFBF00;
+  color:#ffffff;
   font-weight:bold;
 }
 
@@ -183,7 +183,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#3f301d;
+  background-color:#000000;
   text-align: center;
 }
 
